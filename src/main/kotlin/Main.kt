@@ -25,7 +25,7 @@ fun main(args: Array<String>){
     print("The List has ${colours.numberOfColours()} elements stored \n")
    // println(colours.numberOfColours())
 
-   // print("${colours.firstColour()}is the first colour in the list")
+    print("${colours.firstColour()}  is the first colour in the list \n")
     //println(colours.firstColour())
 
     print("___ is the last colour in the list")
