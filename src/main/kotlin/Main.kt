@@ -22,7 +22,7 @@ fun main(args: Array<String>){
     print("The list is:${colours.getAll()} \n")
    // println(colours.getAll())
 
-    //print("The List has ${colours.numberOfColours()} elements stored \n")
+    print("The List has ${colours.numberOfColours()} elements stored \n")
    // println(colours.numberOfColours())
 
    // print("${colours.firstColour()}is the first colour in the list")
