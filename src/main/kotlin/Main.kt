@@ -46,14 +46,17 @@ fun main(args: Array<String>){
     //print (colours.coloursWithLessCharsThan(6))
 
     println("True or false, is blue in the list: ${colours.isColourInTheList("blue")}\n")
-    print(colours.isColourInTheList("blue"))
+    //print(colours.isColourInTheList("blue"))
 
     println("The list of colours, each printed on a new line is:")
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Orange
     //    ...
     //    Colour: Silver
+   for( colours in colours.getAll()) println("\t colour: ${colours}")
 
+    print("lower case list is:${colours.lowercaseColourInTheList()} \n")
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
-
+    print("A random colour to be printed is:${colours.randomColour()} \n")
+    print("Colours with a specific number of chars :${colours.greaterThanColoursChar(5)} \n")
 }

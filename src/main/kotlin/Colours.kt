@@ -59,5 +59,19 @@ class Colours {
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.
+fun lowercaseColourInTheList() : List<String> {
 
+return colours.map { it.lowercase() }
+    }
+
+
+    fun randomColour() : String{
+
+        return  colours.random()
+    }
+
+    fun greaterThanColoursChar(size: Int) : List<String>{
+        //TODO return the colours that have exactly the same number of chars as the number passed as a parameter
+        return colours.filter { it.length > size }
+    }
 }
