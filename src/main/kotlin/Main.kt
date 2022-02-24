@@ -42,10 +42,10 @@ fun main(args: Array<String>){
     print("Colours with a specific number of chars ${colours.coloursWithSpecificNumberOfChars(6)}[ 6 was chosen] \n")
    // println(colours.coloursWithSpecificNumberOfChars(6))
 
-    println("___ have less than less 6 chars ")
-    print (colours.coloursWithLessCharsThan(6))
+    println("${colours.coloursWithLessCharsThan(6)} have less than less 6 chars \n ")
+    //print (colours.coloursWithLessCharsThan(6))
 
-    println("True or false, is blue in the list: ")
+    println("True or false, is blue in the list: ${colours.isColourInTheList("blue")}\n")
     print(colours.isColourInTheList("blue"))
 
     println("The list of colours, each printed on a new line is:")

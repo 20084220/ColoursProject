@@ -48,13 +48,13 @@ class Colours {
 
     fun coloursWithLessCharsThan(size: Int) : List<String>{
         //TODO return the colours that have less chars than the number passed as s parameter
-        return listOf("this should return colours less than ${size} chars")
+        return colours.filter { it.length < size }
     }
 
     fun isColourInTheList(colour : String) : Boolean{
         //TODO return true of the colour passed as a parameter is in the list and false otherwise
         // Note: the search should be case insensitive - if blue is passed as a parameter it should find Blue, BLUE etc.
-        return false
+        return coloursInAllCapitals().contains(colour.uppercase())
     }
 
     //TODO Write THREE additional functions of your choice that will perform some sort of
